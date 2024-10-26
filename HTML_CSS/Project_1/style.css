@@ -1,0 +1,126 @@
+:root {
+  --main-color: #e7a33d;
+  --primary-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+  padding-top: 15px;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  font-size: 1.1rem;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 4rem;
+  padding-bottom: 8px;
+}
+li a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+
+.hero-sec {
+  font-family: "Arima", system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+.main-heading {
+  font-size: 4rem;
+  position: absolute;
+  top: 10rem;
+}
+.Primary-heading {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 4rem;
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.hero-sec img {
+  width:25%;
+}
+
+.our-story {
+  height: 100vh;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; */
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 450px;
+  height: 450px;
+  background: url(/HTML_CSS/Project_1/pablo-merchan-montes-_Tw4vCs9C-8-unsplash-Photoroom.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-content{
+  width: 590px;
+}
+.title-style {
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+button {
+  background-color: var(--main-color);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+}
+.desc{
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
